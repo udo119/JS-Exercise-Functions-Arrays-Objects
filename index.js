@@ -39,9 +39,15 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
-  /* code here */
-}
+function makePersonObject(5, Leia, leia@leia.com)
+const person = {
+  id: 5,
+  user: 'Leia',
+  email: 'leia@leia.com'
+
+  return person;
+};
+
 
 /**
  * ### Challenge `getName`
@@ -56,8 +62,13 @@ function makePersonObject(/* code here */) {
  * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
  * the returned value should look like `Hello, my name is Leia`.
 */
-function getName(/* code here */) {
-  /* code here */
+function getName(person) {
+ const person = {
+   id: 5,
+   name: 'Leia',
+   email: 'leia@leia.com'
+ }
+ return 'Hello my name is' + 'person.name'
 }
 
 /**
